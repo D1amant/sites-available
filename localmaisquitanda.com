@@ -3,7 +3,7 @@ server {
     listen 80;
     listen [::]:80;
     
-    root /home/luis/public_html/maisquitanda;
+    root /home/luis/public_html/maisquitanda/;
     index index.php index.html index.htm;
 
     server_name  localmaisquitanda.com www.localmaisquitanda.com;

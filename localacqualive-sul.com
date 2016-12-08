@@ -3,10 +3,10 @@ server {
     listen 80;
     listen [::]:80;
     
-    root /home/luis/public_html/acqualive-group/public;
+    root /home/luis/public_html/acqualive-sul/;
     index index.php index.html index.htm;
 
-    server_name  localacqualive.com www.localacqualive.com;
+    server_name  localacqualive-sul.com www.localacqualive-sul.com;
 
 location / {
     # This try_files directive is used to enable SEO-friendly URLs for OpenCart
